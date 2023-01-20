@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background: url(./img/image.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.content{
+    /* max-width: 1170px; */
+    margin: 0 auto;
+    width: 1340;
+   height: 680;
+}
+
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 48px;
+   
+ 
+}
+.header{
+    position: fixed;
+    width: 100%;
+   
+}
+.logoandh1{
+    display: flex;
+    
+}
+.header-navbar img{
+    width: 100 ;
+    height: 100;
+}
+.header-navbar h1{
+  color: #fff;
+ margin-left: 5;
+ margin-top: 30;
+}
+.header-menu button{
+    width: 170;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15;
+}
+a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18;
+}
+a:hover{
+    color: yellow;
+    transition: 0.8 ease-in;
+    
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin:20px;
+    color: #fff
+}
+ul{
+    display: flex;
+    
+}
+.header-text {
+    font-size: 30px;
+    color: azure;
+    padding: 50;
+    
+}
+.header-text button{
+    width: 170;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15;
+    height: 62;
+}
+.section-about{
+    padding-top: 200;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  align-items: stretch;
+  margin-left: 36;
+}
+
+.one,
+.four{
+    width: 340px;
+    height: 340;
+}
+.two,
+.three{
+    width: 255px;
+    height: 255px;}
+    
+    .three{
+        margin-left: 80;
+    }
+    .two{
+        margin-top: 80;
+    } 
+    .section-about{
+        display: flex;
+    }
+    .right{
+        margin-top: 50;
+    }
+.righth2{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 30;
+}
+.right h1{
+    font-size: 35;
+}
+.right p{
+    color: gray;
+    letter-spacing: 3;
+}
+.experienceandmasters{
+    display: flex;
+    margin-top: 25;
+}
+.experienceandmasters h1{
+    font-size: 50;
+    margin-left: 20;
+    border-left: 5px solid orange;
+    padding-left: 20;
+}
+.experienceandmasters h2{
+    margin-left: 20;
+    margin-top: 40;
+}
+.experience{
+    display: flex;
+}
+.masters{
+    display: flex;
+}
+span{
+    color: grey;
+    font-weight: 300;
+}
+.section-menu h2{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30;
+   text-align: center;
+   margin-top: 50;
+}
+.section-menu h1{
+    text-align: center;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.one-part{
+    margin: 0 15;
+}
+.one-part:hover{
+    color: orange;
+    cursor: pointer;
+}
+.fa-mug-hot{
+    font-size: 30;
+}
+.two-part{
+    margin: 0 15;
+}
+.two-part:hover{
+    color: orange;
+    cursor: pointer;
+}
+.fa-burger{
+    font-size: 30;
+}
+.three-part{
+    margin: 0 15;
+}
+.three-part:hover{
+    color: orange;
+    cursor: pointer;
+}
+.fa-utensils{
+    font-size: 30;
+}
+.left-side{
+    padding-left: 200;
+}
+.left-side img{
+    width: 250;
+    padding: 15;
+}
+.right-side img{
+    width: 240;
+    padding: 15;
+}
+.foodname{
+    margin-top: 30;
+}
+.left-side h2{
+    margin-top: 0;
+}
+.right-side h2{
+    margin-top: 0;
+}
+/* Left side */
+.first-img{
+    display: flex;
+}
+.second-img{
+    display: flex;
+}
+.third-img{
+    display: flex;
+}
+
+
+/* Right side */
+.right-side{
+    padding-left: 200;
+}
+.first-img2{
+    display: flex;
+}
+.second-img2{
+    display: flex;
+}
+.third-img2{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+
+.onepart .active {
+    border-bottom: 2px solid var(--primary);
+}
+
+
+/* Reservation section */
+.reservation-section{
+    padding-top: 180px;
+    display: flex;
+}
+.reservation-section h2{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30;
+}
+.restoranimg img{
+    width: 750px;
+    height: 530;
+   
+}
+.reservation{
+    padding-left: 40;
+}
+.reservation h1,
+h2{
+    margin: 4 0;
+    margin-left: 5;
+}
+.form-control{
+    width: 350;
+    height: 30;
+}
+#datetime{
+    width: 350;
+    height: 30;
+}
+.form-select{
+    width: 350;
+    height: 30;
+}
+.reservation-section{
+    padding-left: 100;
+}
+.reservation button{
+    margin-left: 90;
+    margin-top: 10;
+    width: 170;
+    height: 30;
+}
+.form-floating{
+    padding: 10;
+}
+#message{
+    resize: none;
+}
+.reservation button{
+    background-color: orange;
+    border: none;
+    width: 200;
+    height: 40;
+    cursor: pointer;
+    font-size: 15;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reservation button:hover{
+    background-color: gold;
+    color: #fff;
+    transition-duration: 0.5s;
+
+
+}
+
+
+/* Members section */
+.members-section h1,
+h2{
+    text-align: center;
+   
+}
+
+.members-section h2{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-instagram{
+    color: orangered;
+}
+.fa-twitter{
+    color: orangered;
+}
+.fa-whatsapp{
+    color: orangered;
+}
+.fa-linkedin-in{
+    color: orangered;
+
+} 
+
+ 
+.aboutourchef{
+    display: flex;
+}
+.aboutourchef img{
+    width: 100%;
+}
